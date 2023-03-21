@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <!-- font awensome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <!-- style.css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="notifications">
+    <div class="header">
+      <div class="header__box">
+        <h1 class="header__box-title">Notifications</h1>
+        <p class="header__box-amount">3</p>
+      </div>
+      <button class="header__all-read">Mark all as read</button>
+    </div>
+
+    <div class="section">
+      <!-- start notification -->
+      <div class="box box--unread">
+        <img src="./img/avatar-mark-webber.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Mark Webber</a> reacted to your recent post <a href="#"
+              class="box__link box__link--gray">My first
+              tournament today!</a>
+          </p>
+          <p class="box__time">1m ago</p>
+        </div>
+      </div>
+      <!-- end notification -->
+      <!-- start notification -->
+      <div class="box box--unread">
+        <img src="./img/avatar-angela-gray.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Angela Gray</a> follow you
+          </p>
+          <p class="box__time">5m ago</p>
+        </div>
+      </div>
+      <!-- end notification -->
+      <!-- start notification -->
+      <div class="box box--unread">
+        <img src="./img/avatar-jacob-thompson.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Jacob Thompsonhas </a>joined your group <a href="#"
+              class="box__link box__link--gray">Chess Club</a>
+          </p>
+          <p class="box__time">1 day ago</p>
+        </div>
+      </div>
+      <!-- end notification -->
+      <!-- start notification -->
+      <div class="box">
+        <img src="./img/avatar-rizky-hasanuddin.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Rizky Hasanuddin </a>sent you a private message
+          </p>
+          <p class="box__time">5 days ago</p>
+          <p class="box__message">Hello, thanks for setting up the Chess Club. I've been a member for a
+            few weeks now and I'm already having lots of fun and improving my game.</p>
+        </div>
+      </div>
+      <!-- end notification -->
+      <!-- start notification -->
+      <div class="box">
+        <img src="./img/avatar-kimberly-smith.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Kimberly Smith </a>commented on your picture
+          </p>
+          <p class="box__time">1 week ago</p>
+          <img src="./img/image-chess.webp" alt="woman playing chess" class="box__img box__opposite-img">
+        </div>
+
+
+      </div>
+      <!-- end notification -->
+      <!-- start notification -->
+      <div class="box">
+        <img src="./img/avatar-nathan-peterson.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Nathan Peterson </a>reacted to your recent <a href="#"
+              class="box__link box__link--gray">5 end-game strategies to increase your win
+              rate</a>
+          </p>
+          <p class="box__time">2 weeks ago</p>
+        </div>
+      </div>
+      <!-- end notification -->
+      <!-- start notification -->
+      <div class="box">
+        <img src="./img/avatar-anna-kim.webp" class="box__img">
+        <div class="box__info">
+          <p class="box__text">
+            <a href="#" class="box__link">Anna Kim </a> left the group <a href="#"
+              class="box__link box__link--gray">Chess Club</a>
+          </p>
+          <p class="box__time">2 weeks ago</p>
+        </div>
+      </div>
+      <!-- end notification -->
+    </div>
+
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+
+
+</html>
